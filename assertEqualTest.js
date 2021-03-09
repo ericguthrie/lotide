@@ -1,11 +1,13 @@
-// test/assertEqualTest.js
-
+const assert = require('chai').assert;
 const assertEqual = require('../assertEqual');
 
-// TEST CODE
-// ...
+describe("#assertEqual", () => {
+  it("returns 1 for 1", () => {
+    assert.strictEqual(assertEqual(1), 1);
+  });
 
-assertEqual("Lighthouse Labs", "Bootcamp");
-assertEqual(1, 1);
-assertEqual("ERIC", "ERIC");
-assertEqual(1,2);
+  it("returns 'ERIC' for ERIC", () => {
+    assert.strictEqual(assertEqual('ERIC'), 'ERIC'); 
+  });
+
+});
