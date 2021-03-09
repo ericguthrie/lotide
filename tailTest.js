@@ -4,7 +4,7 @@ const tail = require('../../tail');
 
 describe("#tail", () => {
   it(`returns ["Y", "L", "L"] for ["Yo Yo", "Lighthouse", "Labs"]`, () => {
-    assert.strictEqual(head(["Yo Yo", "Lighthouse", "Labs"]), ["Y", "L", "L"]);
+    assert.deepstrictEqual(head(["Yo Yo", "Lighthouse", "Labs"]), ["Y", "L", "L"]);
   });
 
 });
