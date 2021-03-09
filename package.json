@@ -1,0 +1,15 @@
+{
+  "name": "@ericguthrie/lotide",
+  "version": "1.0.0",
+  "description": "Lighthouse Labs Functions Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "author": "Eric Guthrie",
+  "license": "MIT, BSD-3-Clause",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
+}
