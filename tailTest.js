@@ -3,8 +3,8 @@ const assertEqual = require('../../assertEqual');
 const tail = require('../../tail');
 
 describe("#tail", () => {
-  it(`returns ["Y", "L", "L"] for ["Yo Yo", "Lighthouse", "Labs"]`, () => {
-    assert.deepstrictEqual(head(["Yo Yo", "Lighthouse", "Labs"]), ["Y", "L", "L"]);
+  it(`returns [2, 3] for [1, 2, 3]`, () => {
+    assert.deepstrictEqual(head([1, 2, 3]), [2, 3]);
   });
 
 });
